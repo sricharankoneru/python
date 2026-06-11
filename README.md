@@ -19,24 +19,31 @@ The main goals of this repository are:
 ---
 
 ## 📁 Repository Structure
+
+The repository contains solutions to Exercism exercises organized by language.
+
+Each exercise is stored in its own folder, containing a single solution file.
+
+```
 solutions/
-│
 ├── python/
-│ ├── black-jack/
-│ │ └── black-jack.py
-│ ├── card-games/
-│ │ └── card-games.py
-│ ├── ...
+│   ├── black-jack/
+│   │   └── black-jack.py
+│   ├── card-games/
+│   │   └── card-games.py
+│   └── ...
 │
 ├── sql/
-│ ├── darts/
-│ │ └── darts.sql
-│ ├── difference-of-squares/
-│ │ └── difference-of-squares.sql
-│ ├── ...
-│
-└── README.md
+│   ├── darts/
+│   │   └── darts.sql
+│   ├── difference-of-squares/
+│   │   └── difference-of-squares.sql
+│   └── ...
+```
 
+> Each folder represents one Exercism problem.
+> Folder name = exercise name
+> File inside = solution
 ---
 
 ## 🐍 Python Exercises
